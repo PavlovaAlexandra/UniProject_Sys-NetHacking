@@ -1,0 +1,93 @@
+.form-container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input {
+    display: inline-block;
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.error {
+    color: red;
+}
+.success {
+    color: green;
+}
+.toggle-btn {
+    width: 10%;
+    max-width: 40px;
+    margin-left: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 16px;
+}
+
+/* Контейнер для пароля */
+.password-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+/* Поле для пароля */
+#password {
+    width: 90%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Кнопка для видимости пароля */
+#toggleOldPassword {
+    width: 10%;
+    max-width: 40px;
+    margin-left: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#toggleNewPassword {
+    width: 10%;
+    max-width: 40px;
+    margin-left: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#toggleConfirmPassword {
+    width: 10%;
+    max-width: 40px;
+    margin-left: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 16px;
+}
+
